@@ -13,15 +13,15 @@ class Film_list extends Component {
             <>
                 <div className={style.bandeau}>
                     <Logo/>
-                    <Link to={'/listTVShow'}>
-                        <p className="films">Films</p>
+                    <Link to={'/list'}>
+                        <p>Films</p>
                     </Link>
                 </div>
                 <Popular/>
                 <Comedy/>
                 <Horror/>
                 <Action/>
-        </>
+            </>
 
         )
     }

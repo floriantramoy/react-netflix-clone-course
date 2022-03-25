@@ -9,6 +9,7 @@ import New_profil from './pages/New_profil/New_profil';
 import Update_profil from "./pages/Update_profil/Update_profil";
 import Whos_watching from "./pages/Whos_watching/Whos_watching";
 import Layout from "./pages/Layout/Layout";
+import Show_list from "./pages/Show_List/Show_list";
 
 export default function App() {
     return (
@@ -22,6 +23,7 @@ export default function App() {
                     <Route path="newProfil" element={<New_profil />} />
                     <Route path="details" element={<Film_details />} />
                     <Route path="list" element={<Film_list />} />
+                    <Route path="listTVShow" element={<Show_list />} />
                 </Route>
             </Routes>
         </BrowserRouter>
