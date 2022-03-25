@@ -1,0 +1,33 @@
+.image{
+    background-image: url("../../Assets/background-login.jpg");
+    height: 100vh;
+}
+
+h1{
+    margin: 0;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+}
+.bandeau{
+    min-width: available;
+    margin-right: 0;
+}
+
+.bandeau Button{
+    float: right;
+    margin: 20px 40px 20px;
+    background-color: red;
+}
+
+img{
+    width: 200px;
+    margin: 0 56px;
+    fill: #e50914;
+}
+
+.mainContainer{
+    padding-top: 200px;
+}

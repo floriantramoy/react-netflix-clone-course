@@ -1,0 +1,12 @@
+.account{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+.accounts{
+    position: relative;
+    top: 50%;
+    left: 15%;
+}

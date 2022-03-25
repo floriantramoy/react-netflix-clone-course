@@ -1,0 +1,38 @@
+.image{
+    background-image: url("../../Assets/background-login.jpg");
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.75);
+    width: 60vh;
+    padding: 60px 68px 40px;
+    margin: 0 auto;
+}
+
+.form input{
+    padding: 15px;
+    margin: 10px;
+}
+
+
+h1{
+    margin: 0;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.4);
+    height: 100vh;
+}
+.bandeau{
+}
+img{
+    width: 135px;
+
+}

@@ -1,0 +1,15 @@
+.containerText{
+    text-align: center;
+    margin : 0 auto;
+    max-width: 40%;
+
+}
+h1{
+    font-size: 70px;
+    line-height: 90px;
+}
+
+h2{
+    font-size: 30px;
+
+}
